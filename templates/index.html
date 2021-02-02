@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Movie Recommender</title>
+    <!-- <link rel="icon" type="image/png" href="https://cdn.onlinewebfonts.com/svg/img_99055.png"> -->
+    <link rel="icon" type="image/png" href="static/stochastic_sage_32x32_.png">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <div class="main-splash">
+    <h1 class="head">Hello there!</h1>
+    <p class='info'>Tell me your opinion about three movies!</p>
+    <form action="/recommend">
+        <input type="text" name="user" placeholder="Your name" class="fieldname">
+        <br>
+        <input type="text" name="movie1" placeholder="Type movie and select rating" class="field">
+        <select name="rating1" class="field_rating">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <br>
+        <input type="text" name="movie2" placeholder="Type movie and select rating" class="field">
+        <select name="rating2" class="field_rating">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <br>
+        <input type="text" name="movie3" placeholder="Type movie and select rating" class="field">
+        <select name="rating3" class="field_rating">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <br>
+        <input type="submit" class="button-container">
+    </form>
+    </div>  
+
+
+    <script src="static/js/script.js">
+    
+    </script>
+</body>
+</html>

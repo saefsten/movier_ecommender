@@ -1,0 +1,45 @@
+#logo {
+    height: 50px;
+  }
+  
+  .main-splash {
+    background-color: #7D9871;
+    height: 100vh;
+    color: #F3FCEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+  .head {
+    font-size: 40px;
+    font-family: Tahoma;
+  }
+  
+  .info {
+    font-size: 30px;
+    font-family: Tahoma;
+  }
+  
+  .fieldname {
+    margin-bottom: 10px;
+    width: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .field {
+    margin-bottom: 10px;
+    width: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
